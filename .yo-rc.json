@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.itaim.application"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "microservice",
+    "baseName": "assetinventory",
+    "packageName": "com.itaim.application",
+    "packageFolder": "com/itaim/application",
+    "serverPort": "8085",
+    "authenticationType": "uaa",
+    "uaaBaseName": "paraamarshAuth",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NjdmMDA0ZDlkMzhmMTllZTY1MWYzMjE0NjZjNWQwNTE5NjE0MTAzMTczNTBkYWY2ZTAxYWNkNGU2MDBlNTJkOGE5NGY5NDlhY2ZhYmJkNzIyZGViNzZjNWRmMWYyMTdiZTVjMGQzZmUwNTFhMWJjMzJmODg5MjFjYjJhMThjY2Q=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
