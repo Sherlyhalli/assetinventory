@@ -17,7 +17,7 @@ import com.itaim.application.domain.AddAsset;
 import com.itaim.application.serviceImpl.AddAssetServiceImpl;
 
 @RestController
-@RequestMapping("/addAsset")
+@RequestMapping("/api/addAsset")
 public class AddAssetController {
 	private static final Logger logger = LoggerFactory.getLogger(AddAssetController.class);
 	@Autowired

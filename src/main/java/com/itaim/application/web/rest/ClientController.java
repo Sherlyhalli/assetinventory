@@ -18,7 +18,7 @@ import com.itaim.application.domain.Client;
 import com.itaim.application.serviceImpl.ClientServiceImpl;
 
 @RestController
-@RequestMapping("/client")
+@RequestMapping("/api/client")
 public class ClientController 
 {
 	private static final Logger Logger = LoggerFactory.getLogger( ClientController.class);

@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.itaim.application.domain.AssetList;
 import com.itaim.application.serviceImpl.AssetListServiceImpl;
 @RestController
-@RequestMapping("/assetList")
+@RequestMapping("/api/assetList")
 public class AssetListController {
 	private static final Logger Logger = LoggerFactory.getLogger(AssetListController .class);
 

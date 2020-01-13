@@ -17,7 +17,7 @@ import com.itaim.application.domain.Employee;
 import com.itaim.application.serviceImpl.EmployeeServiceImpl;
 
 @RestController
-@RequestMapping("/employee")
+@RequestMapping("/api/employee")
 public class EmployeeController 
 {
 	@Autowired

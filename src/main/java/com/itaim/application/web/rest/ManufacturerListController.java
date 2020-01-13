@@ -18,7 +18,7 @@ import com.itaim.application.serviceImpl.ManufacturerListServiceImpl;
 
 
 @RestController
-@RequestMapping("/manufacturerList")
+@RequestMapping("/api/manufacturerList")
 public class ManufacturerListController {
 	private static final Logger Logger = LoggerFactory.getLogger(ManufacturerListController .class);
     @Autowired

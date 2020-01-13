@@ -19,7 +19,7 @@ import com.itaim.application.domain.Employee;
 import com.itaim.application.serviceImpl.AssignAssetServiceImpl;
 
 @RestController
-@RequestMapping("/assignAsset")
+@RequestMapping("/api/assignAsset")
 public class AssignAssetController 
 {
 	private static final Logger Logger = LoggerFactory.getLogger(AssignAssetController .class);

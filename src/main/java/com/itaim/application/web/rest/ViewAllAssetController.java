@@ -13,7 +13,7 @@ import com.itaim.application.domain.ViewAllAsset;
 import com.itaim.application.serviceImpl.ViewAllAssetServiceImpl;
 
 @RestController
-@RequestMapping("/viewAllAsset")
+@RequestMapping("/api/viewAllAsset")
 public class ViewAllAssetController {
 	private static final Logger Logger = LoggerFactory.getLogger(ViewAllAssetController .class);
   @Autowired
