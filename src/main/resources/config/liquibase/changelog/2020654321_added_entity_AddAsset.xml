@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <property name="autoIncrement" value="true"/>
+
+ <!-- Added the entity AddAsset -->
+    <changeSet id="2020654321" author="jhipster">
+        <createTable tableName="add_asset">
+        
+            <column name="id" type="int" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            
+            <column name="asset_type" type="varchar(50)">
+                <constraints nullable="false" />
+            </column>
+            
+            <column name="serial_number" type="varchar(90)">
+            	<constraints nullable="false" />
+            </column>
+            
+            <column name="model_number" type="varchar(90)">
+            	<constraints nullable="false" />
+            </column>
+            
+            <column name="manufacturer" type="varchar(90)">
+            	<constraints nullable="false" />
+            </column>
+            
+            <column name="procurement_date" type="Date">
+            	<constraints nullable="false" />
+            </column>
+            
+        </createTable>
+	</changeSet>
+</databaseChangeLog>
